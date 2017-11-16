@@ -1,0 +1,96 @@
+
+QuestieSeenQuests = {
+	[4083622250] = 0,
+	[4037026418] = 0,
+	[3097990128] = 1,
+}
+QuestieTrackedQuests = {
+	[4083622250] = {
+		["objective1"] = {
+			["notes"] = {
+			},
+			["done"] = 1,
+			["type"] = "monster",
+			["desc"] = "Mindless Zombie slain: 8/8",
+		},
+		["leaderboards"] = 2,
+		["objective2"] = {
+			["notes"] = {
+			},
+			["type"] = "monster",
+			["desc"] = "Wretched Zombie slain: 3/8",
+		},
+		["questName"] = "The Mindless Ones",
+		["level"] = 2,
+		["arrowPoint"] = {
+			["hash"] = 4083622250,
+			["c"] = 2,
+			["dist"] = 99.53601833148179,
+			["yDelta"] = 50.22626903782531,
+			["xDelta"] = 85.93451485768141,
+			["y"] = 0.6332,
+			["x"] = 0.3259,
+			["title"] = "|cFFFFFF00[2] The Mindless Ones|r",
+			["z"] = 21,
+		},
+		["tracked"] = true,
+	},
+	[4037026418] = {
+		["objective1"] = {
+			["notes"] = {
+			},
+			["type"] = "item",
+			["desc"] = "Rattlecage Skull: 0/3",
+		},
+		["leaderboards"] = 1,
+		["questName"] = "Piercing the Veil",
+		["level"] = 3,
+		["tracked"] = true,
+		["arrowPoint"] = {
+			["hash"] = 4037026418,
+			["c"] = 2,
+			["dist"] = 99.62675845353873,
+			["yDelta"] = -5.203727593034061,
+			["xDelta"] = 99.49076449147049,
+			["y"] = 0.6148,
+			["x"] = 0.3289,
+			["title"] = "|cFFFFFF00[3] Piercing the Veil|r",
+			["z"] = 21,
+		},
+	},
+}
+QuestieConfig = {
+	["trackerMinimize"] = true,
+	["minLevelFilter"] = false,
+	["maxShowLevel"] = 3,
+	["showToolTips"] = true,
+	["getVersion"] = 3.68,
+	["alwaysShowDistance"] = false,
+	["boldColors"] = false,
+	["arrowEnabled"] = true,
+	["hideObjectives"] = false,
+	["hideMinimapIcons"] = false,
+	["resizeWorldmap"] = false,
+	["showMapAids"] = true,
+	["trackerBackground"] = false,
+	["trackerEnabled"] = true,
+	["trackerAlpha"] = 0.4,
+	["showProfessionQuests"] = false,
+	["trackerScale"] = 1,
+	["trackerList"] = false,
+	["alwaysShowQuests"] = true,
+	["minShowLevel"] = 5,
+	["alwaysShowLevel"] = true,
+	["corpseArrow"] = true,
+	["showTrackerHeader"] = false,
+	["maxLevelFilter"] = false,
+}
+QuestieTrackerVariables = {
+	["position"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "TOPLEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = 0,
+		["xOfs"] = 0,
+	},
+}

@@ -1,0 +1,73 @@
+MACRO 16777233 "Bandage" Spell_Holy_SealOfSacrifice
+/script TargetUnit("Player")
+/script Heavy Runecloth Bandage
+/script TargetLastEnemy();
+END
+MACRO 16777224 "Curse of Element" Spell_Shadow_ChillTouch
+/run AttackTarget();
+/run CastSpellByName("Curse of the Elements")
+/run PetAttack();
+END
+MACRO 16777234 "Curse of Exhaust" Spell_Shadow_GrimWard
+/run AttackTarget();
+/run CastSpellByName("Curse of Exhaustion")
+/run PetAttack();
+END
+MACRO 16777225 "Curse of Shadows" Spell_Shadow_CurseOfAchimonde
+/run AttackTarget();
+/run CastSpellByName("Curse of Shadow")
+/run PetAttack();
+END
+MACRO 16777222 "Curse of Tongues" Spell_Shadow_CurseOfTounges
+/run AttackTarget();
+/run CastSpellByName("Curse of Tongues")
+/run PetAttack();
+END
+MACRO 16777223 "Curse of Weaknes" Spell_Shadow_CurseOfMannoroth
+/run AttackTarget();
+/run CastSpellByName("Curse of Weakness")
+/run PetAttack();
+END
+MACRO 16777230 "Dark Pact" Spell_Shadow_DarkRitual
+/run CastSpellByName("Dark Pact")
+END
+MACRO 16777232 "Dismiss" Spell_Shadow_SacrificialShield
+/script PetDismiss()
+END
+MACRO 16777228 "Drain Life" Spell_Shadow_LifeDrain02
+/console cameraSmoothTrackingStyle 0
+/run AttackTarget();
+/run CastSpellByName("Drain Life")
+/run PetAttack();
+/console cameraSmoothTrackingStyle 0
+END
+MACRO 16777229 "Drain Mana" Spell_Shadow_SiphonMana
+/console cameraSmoothTrackingStyle 0
+/run AttackTarget();
+/run CastSpellByName("Drain Mana")
+/run PetAttack();
+/console cameraSmoothTrackingStyle 0
+END
+MACRO 16777236 "Health Funnel" Spell_Shadow_LifeDrain
+/console cameraSmoothTrackingStyle 0
+/run CastSpellByName("Health Funnel")
+/console cameraSmoothTrackingStyle 0
+END
+MACRO 16777231 "Life Tap" Spell_Shadow_BurningSpirit
+/run CastSpellByName("Life Tap")
+END
+MACRO 16777221 "Shadowburn" Spell_Shadow_ScourgeBuild
+/run AttackTarget();
+/run CastSpellByName("Shadowburn")
+/run PetAttack();
+END
+MACRO 16777226 "Siphon Life" Spell_Shadow_Requiem
+/run AttackTarget();
+/script if not buffed("Siphon Life", 'target') then CastSpellByName("Siphon Life") end
+/run PetAttack();
+END
+MACRO 16777220 "Soul Fire" Spell_Fire_Fireball02
+/run AttackTarget();
+/run CastSpellByName("Soul Fire")
+/run PetAttack();
+END

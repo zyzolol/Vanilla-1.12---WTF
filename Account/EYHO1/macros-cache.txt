@@ -1,0 +1,76 @@
+MACRO 24 "Bandage" Spell_ChargePositive
+/script TargetUnit("player");
+/script UseAction(37);
+END
+MACRO 36 "Buff" Spell_Shadow_RagingScream
+/script i=1;m=0;while(UnitBuff("player",i)~=nil) do if(strfind(UnitBuff("player",i),"Demon Skin")~=nil) then m=1; end;i=i+1;end; c=CastSpellByName; if(m==1) then c("Detect Greater Invisibility");else c("Unending Breath");end;
+END
+MACRO 17 "Corruption" Spell_Shadow_AbominationExplosion
+/script UIErrorsFrame:Hide()
+/script if not buffed("Corruption", 'target') then CastSpellByName("Corruption") end
+/run PetAttack();
+/run AttackTarget();
+END
+MACRO 27 "Curse of Agony" Spell_Shadow_CurseOfSargeras
+/script UIErrorsFrame:Hide()
+/script if not buffed("Curse of Agony", 'target') then CastSpellByName("Curse of Agony") end
+/run PetAttack();
+/run AttackTarget();
+END
+MACRO 29 "Death Coil" Spell_Shadow_DeathCoil
+/run c=CastSpellByName s="Death Coil" if UnitExists("mouseover") then TargetUnit("mouseover") c(s) TargetLastTarget() else c(s) end
+/run PetPassiveMode();
+/focus
+END
+MACRO 28 "Demon Skin" Spell_Shadow_RagingScream
+/run AttackTarget();
+/run CastSpellByName("Demon Skin")
+/run PetAttack();
+END
+MACRO 33 "Devour" Spell_Nature_Purge
+/run c=CastSpellByName s="Devour Magic" if UnitExists("mouseover") then TargetUnit("mouseover") c(s) TargetLastTarget() else c(s) end
+END
+MACRO 26 "Drain Soul" Spell_Shadow_Haunting
+/console cameraSmoothTrackingStyle 0
+/run CastSpellByName("Drain Soul")
+/console cameraSmoothTrackingStyle 0
+END
+MACRO 8 "Fear" Spell_Shadow_Possession
+/run c=CastSpellByName s="Fear" if UnitExists("mouseover") then TargetUnit("mouseover") c(s) TargetLastTarget() else c(s) end
+/run PetPassiveMode();
+/run SetRaidTarget("target", 3) = Diamond
+/focus
+END
+MACRO 18 "FOCUS" Ability_Druid_ChallangingRoar
+/focus
+END
+MACRO 30 "FOCUSCOIL" Spell_Shadow_DeathCoil
+/fcast Death Coil
+END
+MACRO 20 "FOCUSFEAR" Spell_Shadow_Possession
+/fcast Fear
+END
+MACRO 32 "FOCUSILENCE" Spell_Shadow_MindRot
+/fcast Spell Lock
+END
+MACRO 16 "Immolate" Spell_Fire_Immolation
+/run AttackTarget();
+/run CastSpellByName("Immolate")
+/run PetAttack();
+END
+MACRO 35 "Searing Pain" Spell_Fire_SoulBurn
+/run AttackTarget();
+/run CastSpellByName("Searing Pain")
+/run PetAttack();
+END
+MACRO 34 "SELFDEVOUR" Spell_Nature_Purge
+/script CastSpellByName('Devour Magic(rank 4)', player)
+END
+MACRO 12 "Shadow Bolt" Spell_Shadow_ShadowBolt
+/run AttackTarget();
+/run CastSpellByName("Shadow Bolt")
+/run PetAttack();
+END
+MACRO 31 "Silence" Spell_Shadow_MindRot
+/run c=CastSpellByName s="Spell Lock" if UnitExists("mouseover") then TargetUnit("mouseover") c(s) TargetLastTarget() else c(s) end
+END

@@ -1,0 +1,32 @@
+
+PratDB = {
+	["namespaces"] = {
+		["PlayerNames"] = {
+			["profiles"] = {
+				["Default"] = {
+					["levels"] = {
+						["Ilillillilli"] = 1,
+					},
+				},
+			},
+		},
+		["ChannelColorMemory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["LocalDefense"] = {
+							["r"] = 1.000000059138984,
+							["g"] = 0.752941220998764,
+							["b"] = 0.752941220998764,
+						},
+						["General"] = {
+							["r"] = 1.000000059138984,
+							["g"] = 0.752941220998764,
+							["b"] = 0.752941220998764,
+						},
+					},
+				},
+			},
+		},
+	},
+}

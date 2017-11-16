@@ -1,0 +1,12 @@
+
+MinimapPos = 347.7003796137883
+vQueueOptions = {
+	["onlylfg"] = true,
+	["general"] = true,
+	["filter"] = false,
+	["trade"] = true,
+	["lfg"] = true,
+	["world"] = true,
+}
+notCaught = {
+}

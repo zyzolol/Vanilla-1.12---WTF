@@ -1,0 +1,7 @@
+
+FocusFrameDB = {
+	["alwaysShow"] = false,
+	["scale"] = 1,
+	["fadeOnIdle"] = true,
+	["unlock"] = false,
+}

@@ -1,0 +1,19 @@
+
+QuestieTrackerVariables = {
+	["position"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "TOPLEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -236.3635790889922,
+		["xOfs"] = 457.6700523842864,
+	},
+}
+QuestieDebug = nil
+QuestieConfig = {
+	["showLowLevel"] = false,
+	["AlwaysShowDistance"] = false,
+	["AlwaysShowLevel"] = true,
+	["minShowLevel"] = 12,
+	["showProfessionQuests"] = false,
+	["ArrowEnabled"] = true,
+}

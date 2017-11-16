@@ -1,0 +1,25 @@
+
+FQD = {
+	["AlwaysNotify"] = false,
+	["AutoNotify"] = true,
+	["AllowRaid"] = false,
+	["AutoAdd"] = true,
+	["Imgosu"] = {
+		["tQuests"] = {
+			[1] = "The Chill of Death",
+			[2] = " ",
+			[3] = " ",
+			[4] = " ",
+			[5] = " ",
+		},
+		["nQuests"] = 0,
+		["Format"] = 1,
+		["Tag"] = false,
+	},
+	["AutoComplete"] = false,
+	["Lock"] = true,
+	["Color"] = true,
+	["NoDrag"] = false,
+	["AllowGuild"] = false,
+	["Detail"] = true,
+}

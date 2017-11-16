@@ -1,0 +1,27 @@
+
+VanillaGuideDBPC = {
+	["global"] = {
+		["GuideValues"] = {
+			["GuideID"] = 2,
+		},
+		["CharInfo"] = {
+			["Race"] = "Undead",
+			["Faction"] = "Horde",
+			["CharName"] = "Onlyhumanx",
+			["RealmName"] = "Elysium",
+			["Class"] = "Warlock",
+		},
+		["UI"] = {
+			["MainFrameAnchor"] = {
+				["sTo"] = "TOPLEFT",
+				["nX"] = 1077.333380748486,
+				["sFrom"] = "TOPLEFT",
+				["nY"] = -367.4808905194838,
+			},
+			["MainFrameSize"] = {
+				["nWidth"] = 320.0000043767834,
+				["nHeight"] = 320.0000043767834,
+			},
+		},
+	},
+}
